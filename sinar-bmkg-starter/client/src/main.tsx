@@ -8,7 +8,7 @@ import './styles.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="magang1/sinar">
       <AuthProvider>
         <UiProvider>
           <App />

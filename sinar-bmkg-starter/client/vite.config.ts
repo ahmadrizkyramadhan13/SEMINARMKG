@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // Dev: /api diteruskan ke Express di port 4000 sehingga cookie berjalan satu origin.
 export default defineConfig({
+  base: './',
   plugins: [react()],
   server: {
     port: 5173,
